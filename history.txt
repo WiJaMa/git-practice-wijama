@@ -1,0 +1,113 @@
+    4  cd gitpractice/
+    5  git branch test
+    6  git branch
+    7  git switch test
+    8  git branch
+   10  git add test.txt 
+   11  git commit -m "add test.txt"
+   12  git log
+   13  git merge 
+   14  git merge test
+   15  git switch main
+   16  git merge test
+   17  git branch
+   18  git log
+   19  git remote
+   20  get remote add origin git@github.com:WiJaMa/gitpractice.git
+   21  git remote add origin git@github.com:WiJaMa/gitpractice.git
+   22  git remote
+   23  git remote-v
+   24  git remote -v
+   25  git push -u origin main
+   38  cd stat386/Lab_2/git_practice/
+   39  git init
+   43  git status
+   44  git add .
+   45  git status
+   46  git commit
+   47  git commit -m 'create new files'
+   48  git status
+   49  git log
+   52  git status
+   54  git status
+   55  git add file_1.txt
+   56  git status
+   57  git commit
+   58  git commit -m 'change file_1.txt'
+   59  git status
+   60  git add file_2.txt 
+   61  git commit -m 'change file_2.txt'
+   62  git log
+   65  git add Readme.md 
+   66  git commit -m 'add readme'
+   67  touch .gitignore
+   69  nano .gitignore
+   70  git add .gitignore ignore
+   71  git add .gitignore 
+   72  git commit -m 'add gitignore'
+   73  git status
+   74  git log
+   77  git status
+   79  git status
+   80  git branch features
+   81  git switch features 
+   82  git log
+   84  git add new_features.txt 
+   85  git commit -m 'add empty file'
+   87  git add .
+   88  git commit -m 'add new features'
+   89  git log
+   90  git switch
+   91  git switch main
+   93  git switch features 
+   95  git switch main
+   97  git status
+   98  git add .
+   99  git commit -m
+  100  git commit -m 'add text to introduce file_1.txt :)'
+  101  git log
+  102  git merge features
+  103  git log
+  105  git add new_features.txt 
+  106  git commit -m 'remove new features'
+  107  git switch features 
+  109  git add new_features.txt 
+  110  git commit -m 'add new text to new features'
+  111  git switch main
+  112  git merge features 
+  113  git config --global merge.tool vscode
+  114  git config --global mergetool.vscode.cmd 'code --wait --merge $REMOTE $LOCAL $BASE $MERGED'
+  115  git config --global diff.tool vscode
+  116  git config --global difftool.vscode.cmd 'code --wait --diff $LOCAL $REMOTE'
+  117  git merge features 
+  119  git mergetool
+  120  git log
+  121  git merge features 
+  122  git mergetool features
+  123  git merge
+  124  git commit -m 'merge features, resolve merge conflict'
+  125  git status
+  127  git branch -D features 
+  128  git remote add origin git@github.com:WiJaMa/git-practice-wijama.git
+  129  git push -u origin main
+  133  git status
+  136  git clone git@github.com:WiJaMa/git-practice-22ermiller.git
+  137  git branch feature-wijama
+  138  git status
+  140  cd git-practice-22ermiller/
+  141  git branch feature-wijama
+  142  git switch feature-wijama 
+  146  git sta
+  147  git status 
+  148  git add .
+  149  git commit -m 'add incredible new feature'
+  150  git push origin feature-wijama 
+  155  cd git_practice/
+  157  git status
+  158  git pull
+  160  nano .gitignore
+  162  git log
+  163  gitlog --oneline
+  164  git log --oneline
+  165  git log --oneline > gitlog.txt
+  166  history | grep git > history.txt
